@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: MyApp1
+
+    datasource:
+        username: dev
+        password: dev
+        url: jdbc:postgresql://localhost:5432/postgres?currentSchema=mydb
+        driver-class-name: org.postgresql.Driver
+
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+
